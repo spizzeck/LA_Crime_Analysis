@@ -1,0 +1,32 @@
+
+CREATE TABLE Crime_Data_from_2020_to_Present(
+	DR_NO INT NOT NULL,
+	"Date Rptd" DATETIME,
+	"DATE OCC" VARCHAR,
+	"TIME OCC" VARCHAR,
+	AREA INT NOT NULL,
+	"AREA NAME" VARCHAR,
+	"Rpt Dist No" INT NOT NULL,
+	"Part 1-2" INT NOT NULL,
+	"Crm Cd" INT NOT NULL,
+	"Crm Cd Desc" VARCHAR,
+	Mocodes INT NOT NULL,
+	"Vict Age" INT NOT NULL,
+	"Vict Sex" VARCHAR(1),
+	"Vict Descent" VARCHAR(1),
+	"Premis Cd" INT NOT NULL,
+	"Premis Desc" VARCHAR,
+	"Weapon Used Cd" INT NOT NULL,
+	"Weapon Desc" VARCHAR,
+	"Status" VARCHAR(2),
+	"Status Desc" VARCHAR,
+	"Crd Cd 1" INT NOT NULL,
+	"Crd Cd 2" INT NOT NULL,
+	"Crd Cd 3" INT NOT NULL,
+	"Crd Cd 4" INT NOT NULL,
+	LOCATION VARCHAR,
+	"Cross Street" VARCHAR,
+	LAT INT NOT NULL,
+	LONG INT NOT NULL
+);
+
